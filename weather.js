@@ -23,8 +23,9 @@ async function buscarPrevisaoDoTempo() {
     document.getElementById('icone').src = data.current.weather_icons[0];
     document.getElementById('tempoVariavel').innerText = data.current.weather_descriptions[0];
     if (data.current.is_day == "yes") {
-        document.body.style.backgroundImage = "url(nuvem.jpg)"
+        document.body.style.backgroundImage = "url(images/nuvem.jpg)"
     } else {
-        document.body.style.backgroundImage = "url('nuvem noite.jpg')"
+        document.body.style.backgroundImage = "url('images/nuvem noite.jpg')"
     }
+
 }
