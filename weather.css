@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+    background-image: url("nuvem.jpg");
+    background-size: cover;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(201, 201, 201, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+.menu2 {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border-radius: 80px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.input {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    width: 300px;
+    padding: 1px;
+    outline: none;
+    color: black;
+}
+
+svg {
+    height: 20px;
+}
+
+.botao {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 10px;
+    border-radius: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    padding-inline: 12px;
+}
+
+.botao:hover {
+    background-color:rgb(52, 107, 234);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.786);
+    width: 950px;
+    margin: 40px auto;
+    padding: 20px 36px;
+    border-radius: 20px;
+}
+
+.topico {
+    background-color: rgba(48, 90, 187, 0.8);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+} 
+
+.sub-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.info-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #3a65e0;
+}
+
+.icone-container {
+    border-radius: 10px;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone-container img {
+    width: 220px;
+    border-radius: 20px;
+}
+.escritas {
+    background-color: #9797973c;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.escritas p {
+    margin: 6px 0;
+}
