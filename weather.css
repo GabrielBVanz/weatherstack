@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Inter";
-    background-image: url("nuvem.jpg");
+    background-image: url("images/nuvem.jpg");
     background-size: cover;
 }
 
@@ -120,4 +120,5 @@ svg {
 
 .escritas p {
     margin: 6px 0;
+
 }
